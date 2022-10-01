@@ -1,0 +1,1581 @@
+html, body {
+     height: 100%;
+   }
+   
+   .homepage {
+          height: 100%;
+   }
+#div1{
+     position: absolute;
+     width: 1227.57px;
+     height: 1381px;
+     left: -493px;
+     top: -764px;
+     
+     background: linear-gradient(180deg, #1045AE 0%, #0050B7 100%);
+     filter: blur(200px);
+}
+#div2{
+     position: absolute;
+     width: 1238.39px;
+     height: 1381px;
+     left: 1361px;
+     top: 102px;
+     
+     background: #8F1BD6;
+     filter: blur(472.347px);
+}
+
+.dyuthitxt1{
+     position: absolute;
+     width: 1700px;
+     height: 281px;
+     left: 110px;
+     top: -38px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 244.439px;
+     line-height: 281px;
+     /* identical to box height, or 115% */
+     
+     text-align: center;
+     letter-spacing: 0.05em;
+     
+     opacity: 0.9;
+}
+.dyuthitxt2{
+     position: absolute;
+     width: 1700px;
+     height: 281px;
+     left: 110px;
+     top: 94px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 244.439px;
+     line-height: 281px;
+     /* identical to box height, or 115% */
+     
+     text-align: center;
+     letter-spacing: 0.05em;
+     
+     opacity: 0.9;
+}
+.dyuthitxt3{
+     position: absolute;
+     width: 1700px;
+     height: 281px;
+     left: 110px;
+     top: 226px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 244.439px;
+     line-height: 281px;
+     /* identical to box height, or 115% */
+     
+     text-align: center;
+     letter-spacing: 0.05em;
+     
+     background: linear-gradient(180deg, rgba(255, 255, 255, 0.280313) 9.49%, rgba(0, 0, 0, 0) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fill-color: transparent;
+     
+     opacity: 0.9;
+}
+.dhyuthitxt4{
+     position: absolute;
+     width: 297px;
+     height: 55px;
+     left: 73px;
+     top: 137px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 47.873px;
+     line-height: 55px;
+     /* identical to box height, or 115% */
+     
+     text-align: center;
+     letter-spacing: 0.05em;
+     
+     color: #DFDFE9;
+}
+
+.dot1{
+     position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 414.04px;
+top: 292px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot2{
+     position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 344.84px;
+top: 378.11px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot3{
+     position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 363.86px;
+top: 445.73px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot4{
+     /* Ellipse 191 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 326.88px;
+top: 527.61px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot5{
+     /* Ellipse 190 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 382.87px;
+top: 604.21px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot6{
+     position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 585.73px;
+top: 604.21px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot7{
+     /* Ellipse 188 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 560.9px;
+top: 661.26px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot8{
+     /* Ellipse 187 */
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 418.27px;
+top: 678.69px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot9{
+     /* Ellipse 186 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 247.64px;
+top: 616.36px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot10{
+     /* Ellipse 185 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 161px;
+top: 633.26px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot11{
+     /* Ellipse 184 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 235.48px;
+top: 774.84px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot12{
+     /* Ellipse 183 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 388.15px;
+top: 831.89px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot13{
+     /* Ellipse 182 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 532.9px;
+top: 810.23px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot14{/* Ellipse 181 */
+
+
+     position: absolute;
+     width: 13.21px;
+     height: 13.21px;
+     left: 617.42px;
+     top: 737.86px;
+     border-radius: 50%;
+     
+     background: #FFFFFF;
+     box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;}
+.dot15{
+     /* Ellipse 180 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 678.17px;
+top: 659.15px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot16{
+     /* Ellipse 198 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 406.12px;
+top: 574.62px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot17{
+     /* Ellipse 197 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 388.68px;
+top: 545.04px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot18{
+     /* Ellipse 196 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 442.57px;
+top: 448.37px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.dot19{
+     /* Ellipse 195 */
+
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 410.34px;
+top: 390.26px;
+border-radius: 50%;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 31.5343px #FFFFFF, 0px 0px 18.0196px #FFFFFF, 0px 0px 10.5114px #FFFFFF, 0px 0px 5.25571px #FFFFFF, 0px 0px 1.50163px #FFFFFF, 0px 0px 0.750816px #FFFFFF;
+}
+.comingsoon{
+     position: absolute;
+     width: 795px;
+     height: 116px;
+     left: 959px;
+     top: 372px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 119.778px;
+     line-height: 115px;
+     /* identical to box height, or 96% */
+     
+     letter-spacing: 0.01em;
+     
+     background: linear-gradient(180deg, #FFFEFE 0%, rgba(184, 184, 184, 0.83) 227.64%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     text-fil-color: transparent;
+}
+.dhlogo{
+     display: none;
+     position: absolute;
+     width: 244px;
+     height: 202px;
+     left: 509px;
+     top: 391px;
+     
+     font-family: 'Constellation';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 209.725px;
+     line-height: 202px;
+     /* identical to box height, or 96% */
+     
+     letter-spacing: 0.01em;
+     
+     color: #FFFFFF;
+}
+._days{
+     position: relative;
+     left: 1003.34px;
+     top: 664.3px;
+     
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 43.9793px;
+     line-height: 53px;
+     /* identical to box height */
+     
+     
+     color: #FFFFFF;
+}
+._hours{
+     position: absolute;
+     left: 1214.45px;
+     top: 664.3px;
+
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 43.9793px;
+     line-height: 53px;
+     /* identical to box height */
+     
+     
+     color: #FFFFFF;
+}
+._minutes{
+
+position: absolute;
+left: 1439.08px;
+top: 664.3px;
+
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 43.9793px;
+line-height: 53px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+._sec{
+
+     position: absolute;
+     left: 1632.06px;
+     top: 664.3px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 43.9793px;
+     line-height: 53px;
+     /* identical to box height */
+     
+     
+     color: #FFFFFF;
+}
+.days{
+     position: absolute;
+     left: 998.24px;
+     top: 752.72px;
+
+     
+     font-family: 'Iceberg';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30.4472px;
+     line-height: 37px;
+     
+     color: #FFFFFF;
+}
+.hours{
+     position: absolute;
+     left: 1196.96px;
+     top:  752.72px;
+     
+     font-family: 'Iceberg';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30.4472px;
+     line-height: 37px;
+     
+     color: #FFFFFF;
+}
+.minutes{
+     position: absolute;
+     left: 1415.5px;
+     top:  752.72px;
+     
+     font-family: 'Iceberg';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30.4472px;
+     line-height: 37px;
+     
+     color: #FFFFFF;
+}
+.seconds{
+     position: absolute;
+     top:  752.72px;
+     left: 1606.3px;
+     font-family: 'Iceberg';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30.4472px;
+     line-height: 37px;
+     
+     color: #FFFFFF;
+     
+}
+.dhyuthilogo{
+     position: absolute;
+     width: 514.53px;
+     height: 539.62px;
+     left: 168.39px;
+     top: 298.87px;
+     
+     border: none;
+}
+.dayround{
+     box-sizing: border-box;
+
+     position: absolute;
+     left: 969.85px;
+     top: 680.85px;
+}
+.hourround{
+
+     box-sizing: border-box;
+
+     position: absolute;
+     left: 1174.56px;
+     top:  680.85px;
+}
+.minuteround{
+
+box-sizing: border-box;
+
+position: absolute;
+left: 1386.47px;
+top:  680.85px;
+}
+.secondround{
+     box-sizing: border-box;
+
+     position: absolute;
+     left: 1601.28px;
+     top:  680.85px;
+}
+/*------------------Second part--------------------------*/
+.div3{
+     position: absolute;
+     width: 1063.53px;
+     height: 1186px;
+     left: -427.76px;
+     top: 1821px;
+     
+     background: linear-gradient(180deg, #893EFF 0%, #0BC2EF 100%), #8F1BD6;
+     filter: blur(300px);
+     transform: matrix(-0.41, 0.91, 0.91, 0.41, 0, 0);
+}
+.ambassdor{
+     /* Be A Campus Ambassador */
+
+
+position: absolute;
+width: 888px;
+height: 84px;
+left: 516px;
+top: 2372px;
+
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 84px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.campus_lorem{
+
+     position: absolute;
+     width: 1090px;
+     height: 165px;
+     left: 415px;
+     top: 2496px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 30px;
+     line-height: 55px;
+     /* or 183% */
+     
+     text-align: center;
+     letter-spacing: 0.05em;
+     
+     color: #FFFFFF;
+     
+     
+}
+.signup{
+          /* Rectangle 116 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 388.44px;
+height: 77px;
+left: 768px;
+top: 2735px;
+
+background: #070C23;
+color:white;
+box-shadow: 0px 2.75px 2.75px rgba(0, 0, 0, 0.25), 0px 0px 159.071px #761EDF, 0px 0px 90.8978px #761EDF, 0px 0px 53.0237px #761EDF, 0px 0px 26.5119px #761EDF, 0px 0px 7.57482px #761EDF;
+backdrop-filter: blur(7.90624px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 22px;
+}
+.astrik{
+     position: absolute;
+      top: 2345.65px;
+       left: 1285px;
+}
+/*------------------------Third Part---------------------*/
+#div3{
+     position: absolute;
+     width: 1063.53px;
+     height: 1186px;
+     left: 1565.24px;
+     top: 3487px;
+     
+     background: linear-gradient(180deg, #893EFF 0%, #0BC2EF 100%), #8F1BD6;
+     filter: blur(300px);
+     transform: matrix(-0.41, 0.91, 0.91, 0.41, 0, 0);
+}
+.legacy{
+     position: absolute;
+     width: 238px;
+     height: 84px;
+     left: 841px;
+     top: 3216px;
+
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 70px;
+     line-height: 84px;
+     /* identical to box height */
+
+
+color: #FFFFFF;
+}
+.legacy_lorem{
+     position: absolute;
+width: 1018px;
+height: 110px;
+left: 443px;
+top: 3328px;
+
+font-family: 'Avenir Next LT Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 55px;
+/* or 183% */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+
+}
+.year1{
+     position: absolute;
+     width: 91px;
+     height: 49px;
+     left: 385px;
+     top:  3595px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 35px;
+     line-height: 140%;
+     /* identical to box height, or 49px */
+     
+     display: flex;
+     align-items: center;
+     text-align: center;
+     text-transform: capitalize;
+     
+     color: #FFFFFF;
+}
+.timelinecircle1{
+     box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 346px;
+top: 3578px;
+
+
+}
+
+.year2{
+     position: absolute;
+     width: 91px;
+     height: 49px;
+     left: 924px;
+     top: 3595px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 35px;
+     line-height: 140%;
+     /* identical to box height, or 49px */
+     
+     display: flex;
+     align-items: center;
+     text-align: center;
+     text-transform: capitalize;
+     
+     color: #FFFFFF;
+}
+.timelinecircle2{
+     box-sizing: border-box;
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 885px;
+top: 3578px;
+
+
+}
+.year3{
+     position: absolute;
+     width: 91px;
+     height: 49px;
+     left: 1431px;
+     top:  3595px;
+     
+     font-family: 'Avenir Next LT Pro';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 35px;
+     line-height: 140%;
+     /* identical to box height, or 49px */
+     
+     display: flex;
+     align-items: center;
+     text-align: center;
+     text-transform: capitalize;
+     
+     color: #FFFFFF;
+}
+.timelinecircle3{
+     box-sizing: border-box;
+     position: absolute;
+     width: 150px;
+     height: 150px;
+     left: 1391px;
+     top: 3578px;
+     
+     
+}
+.dottedline1{
+     position: absolute;
+     width: 388px;
+     height: 0px;
+     left: -60px;
+     top:  3635px;
+     
+     border: 9px dashed #FFFFFF;
+}
+.solidline2{
+     position: absolute;
+     left: 496px;
+     width: 371px;
+     height: 0px;
+     top: 3635px;
+     
+     border: 10px solid #FFFFFF;
+}
+.dottedline3{
+     position: absolute;
+top: 3635px;
+width: 286px;
+left: 1541px;
+height: 0px;
+     
+     border: 10px dashed #FFFFFF;
+}
+.solidline1{
+     position: absolute;
+     width: 337px;
+     left: 1035px;
+     top: 3636px;
+     height: 0px;
+     
+     border: 10px solid #FFFFFF;
+}
+.signtxt{
+     position: absolute;
+     height: 31px;
+     left: 135.783px;
+     top: -7.183px;
+     width: 264px;
+     font-weight: bold;
+     font-size: 28px;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     text-transform: capitalize;
+     
+     /* pearl-100 */
+     
+     color: #FFFFFF;
+     
+}
+.div4{
+     position: absolute;
+     width: 1063.53px;
+     height: 1186px;
+     left: 1565.24px;
+     top: 3487px;
+     
+     background: linear-gradient(180deg, #893EFF 0%, #0BC2EF 100%), #8F1BD6;
+     filter: blur(300px);
+     transform: matrix(-0.41, 0.91, 0.91, 0.41, 0, 0);
+}
+@media only screen and (max-width:900px)
+{
+     #div1{}
+     #div2{}
+     .dhyuthitxt4{
+          display: none;
+     }
+     .dyuthitxt1{
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: -2.6%;
+          bottom: 96.35%;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 100.444px;
+          line-height: 115px;
+          /* identical to box height, or 115% */
+          
+          text-align: center;
+          letter-spacing: 0.05em;
+          
+          opacity: 0.9;
+          width: 100vw;
+     }
+     .dyuthitxt2{
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 0.85%;
+          bottom: 95.09%;
+          width: 100vw;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 100.444px;
+          line-height: 115px;
+          /* identical to box height, or 115% */
+          
+          text-align: center;
+          letter-spacing: 0.05em;
+          
+          opacity: 0.9;
+     }
+     .dyuthitxt3{
+          position: absolute;
+          left: 0%;
+          right: 0%;
+          top: 3.1%;
+          bottom: 92.84%;
+          width: 100vw;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 100.444px;
+          line-height: 115px;
+          /* identical to box height, or 115% */
+          
+          text-align: center;
+          letter-spacing: 0.05em;
+          
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.280313) 9.49%, rgba(0, 0, 0, 0) 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+          
+          opacity: 0.9;
+     }
+     .dhlogo{
+          display: none;
+     }
+     .dhyuthilogo{
+          position: absolute;
+          width: 310px;
+          height: 325.12px;
+          left: 209.66px;
+          top: 146.03px;
+          
+         
+     }
+     .dot1{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 357.66px;
+          top: 141.9px;
+          border-radius: 50%;
+
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot2{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 315.96px;
+          top: 193.77px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot3{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 327.42px;
+          top: 234.51px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot4{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 305.14px;
+          top: 283.85px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot5{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 338.88px;
+          top: 330px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot6{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 461.1px;
+          top: 330px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot7{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 446.14px;
+          top: 364.37px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot8{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 360.2px;
+          top: 374.87px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot9{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 257.4px;
+          top: 337.32px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot10{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 205.2px;
+          top: 347.5px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot11{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 250.08px;
+          top: 432.8px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot12{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 342.06px;
+          top: 467.17px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot13{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 429.27px;
+          top: 454.12px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot14{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 480.19px;
+          top: 410.52px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot15{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 516.79px;
+          top: 363.1px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot16{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 352.88px;
+          top: 312.17px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot17{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 342.38px;
+          top: 294.35px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot18{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 374.84px;
+          top: 236.1px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .dot19{
+          position: absolute;
+          width: 7.96px;
+          height: 7.96px;
+          left: 355.43px;
+          top: 201.09px;
+          border-radius: 50%;
+          
+          background: #FFFFFF;
+          box-shadow: 0px 0px 18.999px #FFFFFF, 0px 0px 10.8566px #FFFFFF, 0px 0px 6.33301px #FFFFFF, 0px 0px 3.1665px #FFFFFF, 0px 0px 0.904716px #FFFFFF, 0px 0px 0.452358px #FFFFFF;
+     }
+     .comingsoon{
+          position: absolute;
+          width: 504px;
+          height: 74px;
+          left: 114px;
+          top: 541.38px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 84.9905px;
+          line-height: 73px;
+          /* identical to box height, or 96% */
+          
+          letter-spacing: 0.01em;
+          
+          background: linear-gradient(180deg, #FFFEFE 0%, rgba(184, 184, 184, 0.83) 227.64%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent;
+     }
+     ._days{
+          position: absolute;
+          left: 21.59%;
+          right: 72.09%;
+          top: 52.82%;
+          bottom: 46.03%;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 27.9016px;
+          line-height: 33px;
+          
+          color: #FFFFFF;
+     }
+     ._hours{
+          position: absolute;
+          left: 41.77%;
+          right: 52.92%;
+          top: 52.9%;
+          bottom: 45.95%;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 27.9016px;
+          line-height: 33px;
+          
+          color: #FFFFFF;
+     }
+     ._minutes{
+          position: absolute;
+          left: 62.17%;
+          right: 35.02%;
+          top: 52.82%;
+          bottom: 46.03%;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 27.9016px;
+          line-height: 33px;
+          
+          color: #FFFFFF;
+     }
+     ._sec{
+          position: absolute;
+          left: 80.6%;
+          right: 14.09%;
+          top: 52.9%;
+          bottom: 45.95%;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 27.9016px;
+          line-height: 33px;
+          
+          color: #FFFFFF;
+     }
+     .days{
+          position: absolute;
+          left: 21.88%;
+          right: 70.7%;
+          top: 58.8%;
+          bottom: 40.4%;
+          
+          font-family: 'Iceberg';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19.3165px;
+          line-height: 24px;
+          /* identical to box height */
+          
+          
+          color: #FFFFFF;
+          
+     }
+     .hours{
+          position: absolute;
+          left: 40.74%;
+          right: 49.27%;
+          top: 58.8%;
+          bottom: 40.4%;
+          
+          font-family: 'Iceberg';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19.3165px;
+          line-height: 24px;
+          /* identical to box height */
+          
+          
+          color: #FFFFFF;
+     }
+     .minutes{
+          position: absolute;
+          left: 60.59%;
+          right: 32.07%;
+          top: 58.8%;
+          bottom: 40.4%;
+          
+          font-family: 'Iceberg';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19.3165px;
+          line-height: 24px;
+          /* identical to box height */
+          
+          
+          color: #FFFFFF;
+     }
+     .seconds{
+          position: absolute;
+          left: 80.01%;
+          right: 13.06%;
+          top: 58.8%;
+          bottom: 40.4%;
+          
+          font-family: 'Iceberg';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19.3165px;
+          line-height: 24px;
+          /* identical to box height */
+          
+          
+          color: #FFFFFF;
+     }
+     .dayround{
+          box-sizing: border-box;
+
+          position: absolute;
+          left: 16.46%;
+          right: 73.28%;
+          top: 52.15%;
+          bottom: 45.34%;
+          
+     }
+     .hourround{
+          box-sizing: border-box;
+
+          position: absolute;
+          left: 35.88%;
+          right: 53.86%;
+          top: 52.19%;
+          bottom: 45.29%;
+          
+     }
+     .minuteround{
+          box-sizing: border-box;
+
+          position: absolute;
+          left: 55.3%;
+          right: 34.44%;
+          top: 52.09%;
+          bottom: 45.4%;
+          
+     }
+     .secondround{
+          box-sizing: border-box;
+
+          position: absolute;
+          left: 74.72%;
+          right: 15.02%;
+          top: 52.09%;
+          bottom: 45.4%;
+          
+     }
+     /*-----------------------Second Part------------------------------*/
+     .div3{}
+     .ambassdor{
+          position: absolute;
+          width: 558px;
+          height: 130px;
+          left: 65.95px;
+          top: 1447.33px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 54.575px;
+          line-height: 65px;
+          text-align: center;
+          
+          color: #FFFFFF;
+     }
+     .campus_lorem{
+          position: absolute;
+          width: 585.04px;
+          height: 197px;
+          left: 54.58px;
+          top: 1650.35px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 26.196px;
+          line-height: 39px;
+          /* or 150% */
+          
+          text-align: center;
+          letter-spacing: 0.05em;
+          
+          color: #FFFFFF;
+     }
+     .signup{
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 283.79px;
+          height: 56.26px;
+          left: 207.39px;
+          top: 1914.49px;
+          
+          background: #070C23;
+          box-shadow: 0px 2.00913px 2.00913px rgba(0, 0, 0, 0.25), 0px 0px 116.217px #761EDF, 0px 0px 66.4095px #761EDF, 0px 0px 38.7389px #761EDF, 0px 0px 19.3694px #761EDF, 0px 0px 5.53413px #761EDF;
+          backdrop-filter: blur(5.77626px);
+          /* Note: backdrop-filter has minimal browser support */
+          
+          border-radius: 16.0731px;
+     }
+     .signtxt{
+          position: relative;
+          left: 10vw;
+          top: -1.5vh;
+     }
+     .astrik{
+          position: relative;
+          left: 75.06%;
+          right: -72.84%;
+          top: -0.99%;
+          bottom: 3.85%;
+          
+
+     }
+     /*-----------------------Third Part------------------------------*/
+     .div4{}
+     .legacy{
+          position: absolute;
+          width: 186px;
+          height: 65px;
+          left: 261.96px;
+          top: 2150.26px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 54.575px;
+          line-height: 65px;
+          
+          color: #FFFFFF;
+          
+     }
+     .legacy_lorem{
+          position: absolute;
+          width: 543.57px;
+          height: 118px;
+          left: 72.04px;
+          top: 2250.67px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 26.196px;
+          line-height: 39px;
+          /* or 150% */
+          
+          text-align: center;
+          letter-spacing: 0.05em;
+          
+          color: #FFFFFF;
+     }
+     .timelinecircle1{
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 97.6px;
+          height: 97.6px;
+          left: 50.95px;
+          top: 2400.34px;
+
+     }
+     .year1{
+          position: absolute;
+          width: 59px;
+          height: 32px;
+          margin-top: 0.772px;
+          left: 77.233px;
+          top: 2432.63px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22.7724px;
+          line-height: 140%;
+          /* identical to box height, or 32px */
+          
+          display: flex;
+          align-items: center;
+          text-align: center;
+          text-transform: capitalize;
+          
+          color: #FFFFFF;
+     }
+     .timelinecircle2{
+               /* Ellipse 211 */
+
+
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 97.6px;
+          height: 97.6px;
+          left: 312.91px;
+          top: 2400.34px;
+
+         
+     }
+     .year2{
+          position: absolute;
+          width: 59px;
+          height: 32px;
+          top: 2410.63px;
+          left: 338.183px;
+          
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22.7724px;
+          line-height: 140%;
+          /* identical to box height, or 32px */
+          
+          display: flex;
+          align-items: center;
+          text-align: center;
+          text-transform: capitalize;
+          
+          color: #FFFFFF;
+     }
+     .timelinecircle3{
+          box-sizing: border-box;
+
+          position: absolute;
+          width: 97.6px;
+          height: 97.6px;
+          left: 547.68px;
+          top: 2400.34px;
+          
+
+     }
+     .year3{
+               /* 1990 */
+
+
+          position: absolute;
+          width: 59px;
+          height: 32px;
+          top: 2410.63px;
+          left: 573.617px;
+
+          font-family: 'Avenir Next LT Pro';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22.7724px;
+          line-height: 140%;
+          /* identical to box height, or 32px */
+
+          display: flex;
+          align-items: center;
+          text-align: center;
+          text-transform: capitalize;
+
+          color: #FFFFFF;
+
+     }
+     .dottedline1{
+          position: absolute;
+          width: 358.75px;
+          height: 0px;
+          left: -317.8px;
+          top: 2434.73px;
+          
+          border: 6.91603px dashed #FFFFFF;
+     }
+     .solidline1{
+          position: absolute;
+         
+          height: 0px;
+          width: 155.36px;
+          left: 148.017px;
+          top: 2436px;
+          
+          border: 5.43263px solid #FFFFFF;
+     }
+     .solidline2{
+          position: absolute;
+
+          height: 0px;
+          top: 2436px;
+          width: 130.39px;
+          left: 408.35px;
+          
+          border: 5.07783px solid #FFFFFF;
+     }
+     .dottedline3{
+          position: absolute;
+     
+          height: 0px;
+         
+          width: 294.88px;
+          left: 644.133px;
+          top: 2433.73px;
+          
+          border: 7.40144px dashed #FFFFFF;
+     }
+}
