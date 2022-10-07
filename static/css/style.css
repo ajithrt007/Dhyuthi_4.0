@@ -121,12 +121,12 @@ body{
     opacity: 0.9;
 }
 .mobExpand{
-    flex-direction:column;
-    height: unset;
-    padding: 30px 40px;
-    align-items: flex-start;
-    gap:30px; 
-    border-radius: 35px;
+    flex-direction:column !important;
+    height: unset !important;
+    padding: 30px 40px !important;
+    align-items: flex-start !important;
+    gap:30px !important; 
+    border-radius: 35px !important;
 }
 .home{
     height: 100vh;
