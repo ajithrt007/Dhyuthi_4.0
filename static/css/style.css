@@ -383,10 +383,10 @@ section{
         font-size: 40px;
     }
     .circle {
-          height: 80px;
-          width: 80px;
+          height: 18vw;
+          width: 18vw;
           font-weight: 700;
-          font-size: 30px;
+          font-size: 27px;
           color: #FFFFFF;
           border: 4px solid white;
      }
@@ -395,8 +395,8 @@ section{
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
-        row-gap: 60px;
-        /*! column-gap: 30px; */
+        row-gap: 30px;
+        column-gap: 50px;
     }
     .aboutSection{
         height: 80vh;
@@ -409,6 +409,11 @@ section{
     }
     #about_title{
         top: -2vh !important;
+        font-family: 'Avenir Next LT Pro B' !important;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px !important;
+        left: 38vw !important;
     }
     #about_text{
         top: 6vh !important;
@@ -418,9 +423,34 @@ section{
     }
     .section_text{
         padding: 0 8vw;
+        font-size: 3.9vw;
     }
     .astersikParent{
        padding: 0 8vw; 
         text-align: center;
+       font-size: 30px;
+    }
+    .logos-island{        
+        padding: 0 20px;
+        height: 60px;
+        box-shadow: 0px 0px 548.228px rgba(38, 53, 155, 0.8), 0px 0px 313.273px rgba(38, 53, 155, 0.8), 0px 0px 182.743px rgba(38, 53, 155, 0.8), 0px 0px 91.3714px rgba(38, 53, 155, 0.8), 0px 0px 26.1061px rgba(38, 53, 155, 0.8), 0px 0px 13.0531px rgba(38, 53, 155, 0.8);
+    }
+    .sound-island{        
+        height: 60px;
+        width: 60px;
+        box-shadow: 0px 0px 113.317px rgba(130, 70, 170, 0.8), 0px 0px 64.7527px rgba(130, 70, 170, 0.8), 0px 0px 37.7724px rgba(130, 70, 170, 0.8), 0px 0px 18.8862px rgba(130, 70, 170, 0.8), 0px 0px 5.39606px rgba(130, 70, 170, 0.8), 0px 0px 2.69803px rgba(130, 70, 170, 0.8);
+    }
+    .dhyuthi-txt{
+        top: 30px;
+    }
+    .contacts_title{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .contacts_txt{
+        font-size: 3.9vw;
+    }
+    .logo{
+        height: 31px;
     }
 }
