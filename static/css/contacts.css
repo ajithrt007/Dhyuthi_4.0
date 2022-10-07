@@ -1,61 +1,45 @@
-body {
-    margin: 0;
-
+.contacts_rectangle_front {
+    width: 100vw;
+    background-color: #030A1D;
+    border-radius: 9.53495px 9.53495px 0px 0px;
+    padding: 6vh 4vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-
-#contacts_rectangle_back {
-    position: absolute;
-    top: 73.5vh;
-
+.contacts_rectangle_front::before{
     width: 100vw;
-    height: 2vh;
-    /* background: #ff0000; */
+    position: absolute;
+    top: 0;
+    content: '';
     background-image: linear-gradient(to right,#419CFF,#419CFF,
     #7C0FDB,#074CB4);
     border-radius: 9.53495px 9.53495px 0px 0px;
-}
-
-#contacts_rectangle_front {
-    position: absolute;
-    top: 75vh;
-
-    width: 100vw;
-    height: 25vh;
-    background-color: #030A1D;
-    border-radius: 9.53495px 9.53495px 0px 0px;
+    left: 0;
+    right: 0;
+    height: 10px;
 }
 
 #contacts_title {
-    position: absolute;
+    /* position: absolute;
     left: 5vw;
-    top: 75vh;
+    top: 75vh; */
 
     color: #ffffff;
     font-family: 'Avenir Next LT Pro Regular';
     font-style: normal;
     font-weight: 700;
     font-size: 1.75vh;
-    line-height: 7vh; 
-}
-
-#contacts_text {
-    position: absolute;
-    left: 5vw;
-    top: 83vh;
-
-    color: #A1A1AA;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 1.5vh;
+    /* line-height: 7vh;  */
 }
 
 #contacts_icons {
     display: flex;
-    position: absolute;
+    /* position: absolute;
     left: 5vw;
     top: 90vh;
-
     height: 3vh;
-    width: auto;
+    width: auto; */
 }

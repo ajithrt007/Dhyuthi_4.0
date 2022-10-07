@@ -7,9 +7,10 @@
     <title>Dhyuthi</title>
     <link rel="stylesheet" href="../static/css/style.css">
     <link rel="stylesheet" href="../static/css/about.css">
-    <link rel="stylesheet" href="../static/css/about.css">
+    <link rel="stylesheet" href="../static/css/contacts.css">
 </head>
 <body>
+    <div style="position:absolute;top:0;" id="home"></div>
     <div class="dynamic-island">
         <div class="sound-island">
             <div class="sound-container">                
@@ -18,12 +19,11 @@
                 <div></div>
             </div>
         </div>
-        <audio id="song" hidden>
-            <source src="../static/audio/music.wav" type="audio/ogg">
-            <source src="horse.mp3" type="audio/mpeg">
-          </audio>
+        <audio id="song" hidden loop autoplay>
+            <source src="./assets/backgroundmusic.mp3" type="audio/mp3">                   
+        </audio>
         <div class="logos-island">
-            <div class="logo-and-txt">
+            <!-- <div class="logo-and-txt">
                 <img src="../static/icons/home.svg" alt="Home" class="island-logo">
                 <p class="logo-txt">Home</p>
             </div>
@@ -38,7 +38,23 @@
             <div class="logo-and-txt">
                 <img src="../static/icons/contact.svg" alt="Contact" class="island-logo">
                 <p class="logo-txt">Contact</p>
-            </div>
+            </div> -->
+            <a onclick="goToHome()" class="logo-and-txt">                        
+                <img src="../static/icons/home.svg" height="27" width="28" alt="Home" class="island-logo">
+                <p class="logo-txt">Home</p>            
+            </a>
+            <a onclick="goToAbout()" class="logo-and-txt">          
+                <img src="../static/icons/about.svg" height="27" width="27" alt="About" class="island-logo">
+                <p class="logo-txt">About</p>         
+            </a>
+            <a onclick="goToCA()" class="logo-and-txt">           
+                <img src="../static/icons/campuss-ambassador.svg" height="27" width="27" alt="Ambassador" class="island-logo">
+                <p class="logo-txt">Campuss Ambassdor</p>           
+            </a>
+            <a onclick="goToContact()" class="logo-and-txt">            
+                <img src="../static/icons/contact.svg" height="27" width="27" alt="Contact" class="island-logo">
+                <p class="logo-txt">Contact</p>           
+            </a>
         </div>
     </div>
     <section class="home">
@@ -46,13 +62,11 @@
         <div class="dhyuthi-txt">
             <img src="../static/icons/dhuthi3.svg" alt="">
         </div>
-        <h2 class="dhyuthi-title" hidden>Dhyuthi 4.0</h2>
         <div class="blue-shade"></div>
         <div class="violet-shade"></div>
         <div class="dhLogo-and-comingSoon">
             <div class="dhyuthi-logo-main">
                 <img src="../static/icons/dyuthi-const-logo.svg" alt="" class="logo-main">
-                <img src="../static/icons/dh.svg" alt="" class="dh">
             </div>
             <div class="comingSoon-part">
                 <h1 class="comingSoon-txt">Coming Soon</h1>
@@ -75,6 +89,49 @@
                     </div>
                 </div>
             </div>
+            <div class="timer days-pending">
+                <div>   
+                    <div class="ring">
+                        <svg class="loop" height="100" width="100">
+                            <circle class="desktopcircle" id="d1"  cx="100" cy="100" r="90" stroke-dasharray="50,240" stroke="#0050B7" stroke-width="7" fill="none" />
+                            <circle class="mobilecirlce" id="m1"  cx="50" cy="50" r="40" stroke-dasharray="50,240" stroke="#0050B7" stroke-width="5" fill="none"  />
+                          </svg>
+                        <h2 id="days"class="innertext">0</h2>
+                        <p>Days</p>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="ring">
+                        <svg class="loop" height="100" width="100">
+                            <circle class="desktopcircle"  cx="50" cy="50" r="40" id="d2" stroke-dasharray="50,240" stroke="#0050B7" stroke-width="5" fill="none" />
+                            <circle class="mobilecirlce"  cx="50" cy="50" r="40" id="m2" stroke-dasharray="50,240" stroke="#0050B7" stroke-width="5" fill="none"  />
+                          </svg>
+                        <h2 id="hours" class="innertext">0</h2>
+                        <p>Hours</p>
+                    </div>
+                </div>
+                <div >
+                    <div class="ring">
+                        <svg class="loop" height="100" width="100">
+                            <circle class="desktopcircle" cx="50" cy="50" r="40" id="d3" stroke-dasharray="50,240" stroke="#0050B7" stroke-width="5" fill="none"  />
+                            <circle class="mobilecirlce "  cx="50" cy="50" r="40"  id="m3" stroke-dasharray="50,240" stroke="#0050B7" stroke-width="5" fill="none"  />
+                          </svg>
+                        <h2 id="mins" class="innertext">0</h2>
+                        <p>Mins</p>
+                    </div>
+                </div>
+                <div >
+                    <div class="ring">
+                        <svg class="secondsvg" height="100" width="100">
+                            <circle class="desktopcircle loopsecond"  cx="50" cy="50" r="40" id="d4"   stroke="#0050B7" stroke-width="5" fill="none" />
+                            <circle class="mobilecirlce loopsecond"  cx="50" cy="50" r="40" id="m4"   stroke="#0050B7" stroke-width="5" fill="none" />
+                          </svg>
+                        <h2 id="secs" class="innertext">0</h2>
+                        <p>Secs</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="aboutSection">
@@ -85,26 +142,41 @@
                 About
             </div>        
             <div id="about_text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit 
-                amet sapien fringilla, mattis ligula consectetur, ultrices mauris. 
-                Maecenas vitae mattis tellus. Nullam quis imperdiet augue. 
-                Vestibulum auctor ornare leo, non suscipit magna interdum eu. 
+                The Flagship event of IEEE SCT SB, is back with a bang after a two year hiatus. Whilst the post covid era continues to dampen everyone, Dyuthi 4.0 promises to offer a fun filled, thrilling and exhilarating 3 days filled with lively workshops, interactions and much more to be seen. With participants from colleges in the length and breadth of Kerala, Dyuthi 4.0 is geared up to be a one of a kind festive experience.
+          <br> While the primary objective of Dyuthi is to provide a rostrum for students from different colleges to expand their social circle, engage in fun conversations, debate and discuss prospects etc, Dyuthi 4.0 promises much much more.
+No wonder perhaps, it still remains one of the most anticipated events of our SB!
+ 
             </div>        
         </div>
     </section>
-    <section>
-        <div class="contacts">
-            <div id="contacts_rectangle_back"></div>
-            <div id="contacts_rectangle_front"></div>
-            <div id="contacts_title"> Dhyuthi 4.0 </div>
-            <div id ="contacts_text"> haha...contact me: 9497778170 </div>
-            <div id ="contacts_icons">
-                <img src="../static/images/items.png" alt="icons">
+    <section id="campussambassador">
+        <div class="light-blue-shade"></div>
+        <div class="campusContainer">            
+            <h1 class="section_title astersikParent">Be A Campus Ambassador</h1>
+            <div class="section_text">
+                Campus Ambassadors (CA) act as the connection between the student participants and the college they are enrolled in. They are the main and direct contact with all involved and are the voice of Dhyuthi, to be held on our campus.
+                <br> Campus Ambassadors are interested and excited about the whole event, its beliefs, what it stands for, and its work. Possession of leadership qualities, taking initiative, and charging on their campuses makes them all together more influential.
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScs7yNqc57NYYsdKUwP9szRvELoaU2bTs_NPmr2f4l99cGMxQ/viewform?usp=sf_link" target="_blank" class="campus-button">Signup</a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contacts_rectangle_front">
+            <div class="contacts_title"> Dhyuthi 4.0 </div>
+            <div class="contacts_txt">Phone no: +91 8547393808</div>
+            <div class="contacts_txt">Sree Chitra Thirunal College of Engineering, Pappanamcode, Thiruvananthapuram, Kerala, 695018</div>
+            <div class="contacts_icons"> 
+                <a href="https://ieeesctsb.org/" target="_blank" style="text-decoration: none;"><img src="../static/icons/web-icon.svg" alt="" class="logo"></a> 
+                <a href="https://www.youtube.com/channel/UC4fM1q35ytL7QeS5aXORzIQ" target="_blank" style="text-decoration: none;"><img src="../static/icons/yt-icon.svg" alt="" class="logo"></a> 
+                <a href="https://www.instagram.com/ieeesctsb/?hl=en" target="_blank" style="text-decoration: none;"><img src="../static/icons/insta-icon.svg" alt="" class="logo"></a> 
+                <a href="https://www.facebook.com/ieeesctsb/" target="_blank" style="text-decoration: none;"><img src="../static/icons/fb-con.svg" alt="" class="logo"></a> 
+                <a href="https://www.linkedin.com/company/ieeesctsb/mycompany/" target="_blank" style="text-decoration: none;"><img src="../static/icons/linkedin-icon.svg" alt="" class="logo"></a>
+                <a href="mailto:mailtoieeesctsb@gmail.com" target="_blank" style="text-decoration: none;"><img src="../static/icons/mail-icon.svg" alt="" class="logo"></a> 
             </div>
         </div>
     </section>
     <script src="../static/js/dynamic-island.js"></script>
     <script src="../static/js/coming-soon.js"></script>
+    <script src="../static/js/scrollToPosition.js" defer></script>
 </body>
 </html>

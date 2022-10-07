@@ -6,19 +6,29 @@
     font-family: Avenir Next LT Pro Regular;
     src: url(../fonts/Avenir\ Next\ LT\ Pro\ Regular.otf);
 }
+@font-face {
+    font-family: Avenir Next LT Pro;
+    src: url(../fonts/AvenirNextLTPro-It.otf);
+}
+@font-face {
+    font-family: Avenir Next LT Pro B;
+    src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
 body{
     margin: 0;
     background: #030A1D;
     color: white;
     overflow-x: hidden;
+    height: 100%;
 }
 .dhyuthi-txt{
     position: absolute;
     width: 100%;
-    top: -60px;
+    top: -64px;
     z-index: 10;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    opacity: 0.7;
 }
 .dhyuthi-txt img{
     width: 90%;
@@ -32,7 +42,7 @@ body{
     position: absolute;
     right: -290px;
     bottom: -200px;
-    opacity: 0.8;
+    opacity: 0.4;
 }
 .blue-shade{
     background: linear-gradient(180deg, #1045AE 0%, #0050B7 100%);
@@ -42,6 +52,7 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+    opacity: 0.5;
 }
 .dynamic-island{
     display: flex;
@@ -109,6 +120,14 @@ body{
 .logo-and-txt:hover{
     opacity: 0.9;
 }
+.mobExpand{
+    flex-direction:column;
+    height: unset;
+    padding: 30px 40px;
+    align-items: flex-start;
+    gap:30px; 
+    border-radius: 35px;
+}
 .home{
     height: 100vh;
     width: 100vw;
@@ -123,22 +142,26 @@ section{
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
     height: 100vh;
     object-fit: cover;
+    width: 100vw;
 }
 .dhLogo-and-comingSoon{
     display: flex;
-    gap: 14vw;
+    gap: 11vw;
+    padding: 0 7vw;
+    margin-top: 19vh;
+    position: absolute;
 }
 .dhyuthi-logo-main{
-    position: relative;
-    margin-top: 6vh;
+    /*! position: relative; */
+    /*! margin-top: 6vh; */
+    /*! height: 10vh; */
 }
-.dh{
-    position: absolute;
-    top: 100px;
-    right: 0;
+.logo-main{
+    position: relative;
+    height: 60vh;
 }
 .comingSoon-part{
     display: flex;
@@ -150,9 +173,9 @@ section{
     gap: 4vw;
 }
 .comingSoon-txt{
-    font-family: 'Avenir Next LT Pro Regular';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Avenir Next LT Pro B';
+    font-style: revert;
+    font-weight: 100;
     font-size: 100px;
     letter-spacing: 0.01em;
     color: white;
@@ -178,7 +201,7 @@ section{
     background: transparent;
 }
 .comingSoon-part{
-    margin-top: 17vh;
+    /*! margin-top: 17vh; */
 }
 .aboutSection{
     height: 100vh;
@@ -192,5 +215,96 @@ section{
     left: 0;
     /*! right: 0; */
     /*! bottom: 0; */
-    z-index: 0;
+    z-index: 2;
+    opacity: 0.8;
+}
+.campus-button{
+    background: #070C23;
+    color: white;
+    box-shadow: 0px 2.75px 2.75px rgba(0, 0, 0, 0.25), 0px 0px 159.071px #761EDF, 0px 0px 90.8978px #761EDF, 0px 0px 53.0237px #761EDF, 0px 0px 26.5119px #761EDF, 0px 0px 7.57482px #761EDF;
+    backdrop-filter: blur(7.90624px);
+    border-radius: 25px;
+    padding: 16px 32px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+#campussambassador{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.campusContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.section-text{
+    text-align: center;
+}
+.astersikParent{
+    position: relative;
+}
+.astersikParent::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top : 0;
+    background: url(../icons/astrik.svg);
+    height: 20px;
+    width: 20px;
+}
+.section-title{
+    font-family: 'Avenir Next LT Pro B';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+}
+.contacts_icons{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    height:25px;
+    opacity: 0.7;
+}
+.logo:hover{
+    opacity: 1;
+}
+.contacts_title{
+    font-family: 'Avenir Next LT Pro B';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 2vh;
+}
+.contacts_txt{
+    font-family: 'Avenir Next LT Pro Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.about{
+    z-index: 3;
+    position: relative;
+}
+.light-blue-shade{
+    background: linear-gradient(180deg, #893EFF 0%, #0BC2EF 100%), #8F1BD6;
+    filter: blur(300px);
+    height: 40vh;
+    width: 40vw;
+    position: absolute;
+    top:20vh;
+    left: 0;
+    opacity: 0.8;
+}
+.aboutSection{
+    background: url(../static/icons/background-texture.svg);
 }

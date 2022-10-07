@@ -64,20 +64,73 @@ function expandIsland(){
     for (i = 0; i< navIslandNo; i++){
         navIslandChildren[i].children[1].style.display = 'block';
     }
-}
+}  
 window.addEventListener('scroll',function(){
     scrollHeight = this.window.scrollY;
-    if(scrollHeight > 0){
-        compressIsland();
+    if(scrollHeight > 0 && (this.screen.width >=726)){
+            compressIsland();
     }
-    if(scrollHeight == 0){
-        expandIsland();
+    if(scrollHeight == 0 && (this.screen.width >=726)){
+            expandIsland();
     }
 });
 navIsland.addEventListener('mouseover',function(){
-    expandIsland();
+    if(screen.width >=726){
+        expandIsland();
+    }   
 });
 navIsland.addEventListener('mouseout',function(){
-    compressIsland();
-});
+    if(screen.width >=726){
+        compressIsland();
+    }  
+});    
 
+function mobExpandedfState(){
+    navIsland.classList.add('mobExpand');
+    expandIsland();
+    hideSoundIsland();
+    makeATagClickable();
+}
+function mobCompressedState(){
+    navIsland.classList.remove('mobExpand');
+    compressIsland();
+    displaySoundIsland();
+    makeATagUnclickable();
+}
+const soundIsland = document.querySelector('.sound-island');
+function hideSoundIsland(){
+    soundIsland.style.position = 'absolute';
+    soundIsland.style.zIndex = -10;
+}
+function displaySoundIsland(){
+    soundIsland.style.position = 'unset';
+    soundIsland.style.zIndex = 'unset';
+}
+function makeATagUnclickable(){
+    var i;
+    for (i = 0; i< navIslandNo; i++){
+        navIslandChildren[i].style.pointerEvents = "none";
+        navIslandChildren[i].style.cursor = "default";
+    }
+}
+function makeATagClickable(){
+    var i;
+    for (i = 0; i< navIslandNo; i++){
+        navIslandChildren[i].style.pointerEvents = "unset";
+        navIslandChildren[i].style.cursor = "unset";
+    }
+}
+if(screen.width < 726){
+    compressIsland();
+    makeATagUnclickable();
+    navIsland.addEventListener('click',function(){
+        console.log(screen.width);
+        mobExpandedfState();
+    });
+    document.addEventListener("click", (evt) => {
+        let target = evt.target;
+        if(target != navIsland) {            
+            mobCompressedState();
+        }
+    });
+}
