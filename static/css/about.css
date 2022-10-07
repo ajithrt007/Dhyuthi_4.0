@@ -1,12 +1,12 @@
 #about_title {
     color: #ffffff;
-    font-family: 'Avenir Next LT Pro Regular';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 8vh;   
     position: absolute;
     left: 5vw;
     top: 15vh;
+    font-family: 'Avenir Next LT Pro B';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 #about_text {
