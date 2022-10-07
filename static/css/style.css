@@ -216,7 +216,10 @@ section{
     /*! right: 0; */
     /*! bottom: 0; */
     z-index: 2;
-    opacity: 0.8;
+    opacity: 1;
+    /*! height: 100vh; */
+    width: 100vw;
+    object-fit: cover;
 }
 .campus-button{
     background: #070C23;
@@ -244,11 +247,22 @@ section{
     flex-direction: column;
     gap: 20px;
 }
-.section-text{
+.section_text{
     text-align: center;
+    font-family: 'Avenir Next LT Pro Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    padding: 0 4vw;
 }
 .astersikParent{
     position: relative;
+    font-size: 32px;
+    font-family: 'Avenir Next LT Pro B';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
 }
 .astersikParent::before{
     content: '';
@@ -258,12 +272,6 @@ section{
     background: url(../icons/astrik.svg);
     height: 20px;
     width: 20px;
-}
-.section-title{
-    font-family: 'Avenir Next LT Pro B';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
 }
 .contacts_icons{
     display: flex;
@@ -298,12 +306,12 @@ section{
 .light-blue-shade{
     background: linear-gradient(180deg, #893EFF 0%, #0BC2EF 100%), #8F1BD6;
     filter: blur(300px);
-    height: 40vh;
-    width: 40vw;
+    height: 50vh;
+    width: 50vw;
     position: absolute;
-    top:20vh;
-    left: 0;
-    opacity: 0.8;
+    top:-10vh;
+    left: -401px;
+    opacity: 0.6;
 }
 .aboutSection{
     background: url(../static/icons/background-texture.svg);
