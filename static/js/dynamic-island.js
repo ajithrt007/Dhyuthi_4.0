@@ -34,10 +34,10 @@ function off(){
     child3.style.height = minHeight + 'px';
 }
 
-on();
+off();
 
 //Switch States
-document.querySelector('.sound-container').addEventListener('click',function(){
+document.querySelector('.sound-island').addEventListener('click',function(){
     if(musicState === 'On'){
         off();
     }
